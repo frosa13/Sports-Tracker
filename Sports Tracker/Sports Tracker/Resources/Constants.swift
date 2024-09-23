@@ -24,3 +24,28 @@ enum NetworkError: Error {
     case unknown
 }
 
+enum Radius: CGFloat {
+    case r4 = 4
+    case r8 = 8
+}
+
+enum Margin: CGFloat {
+    case m4 = 4
+    case m8 = 8
+    case m16 = 16
+    case m32 = 32
+}
+
+enum Size: CGFloat {
+    case s12 = 12
+    case s24 = 24
+    case s32 = 32
+    case s44 = 44
+    case s100 = 100
+}
+
+enum ViewState: String {
+    case success
+    case error
+    case loading
+}
