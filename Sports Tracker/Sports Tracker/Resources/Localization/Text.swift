@@ -8,5 +8,8 @@
 import Foundation
 
 enum Text: String {
-    case dashboardNavigationBarTitle = "Sports Tacker"
+    case sportsDashboardNavigationBarTitle = "Sports Tracker"
+    case sportsDashboardErrorTitle = "Something went wrong"
+    case sportsDashboardErrorDescription = "We're having trouble connecting"
+    case sportsDashboardErrorTryAgainButton = "Try again"
 }
