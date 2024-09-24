@@ -8,7 +8,7 @@
 import Foundation
 
 enum ImageName {
-    static let appIcon = "AppIcon"
+    static let appIcon = "app_icon"
     static let noConnection = "no_connection"
     static let arrowDown = "arrow_down"
     static let arrowUp = "arrow_up"
